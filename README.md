@@ -52,7 +52,7 @@ in the range of 3.0% to 3.5% (fixed).
 
 Here is the formula for finding the monthly payment for any loan:
 
-P = L\[m(1 + m)^n^\]/\[(1 + m)^n^ - 1\], where
+P = L\[m(1 + m)<sup>n</sup>\]/\[(1 + m)<sup>n</sup> - 1\], where
 
 **L** is the loan amount in dollars
 
@@ -80,31 +80,23 @@ for the year will be 1% of the loan amount and paid monthly.
 Here is exactly what your program is to output (asterisks and all), and
 user input is in **bold**:
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
+<pre>
+*******************
 Mortgage Calculator
+*******************
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+Enter Purchase Price: $<b>115000.00</b>
+Enter Down Payment: $<b>15000.00</b>
+Enter Interest Rate: %<b>3.5</b>
+Enter Number Of Years: <b>30</b>
 
-Enter Purchase Price: \$**115000.00**
-
-Enter Down Payment: \$**15000.00**
-
-Enter Interest Rate: %**3.5**
-
-Enter Number Of Years: **30**
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-Loan Amount: \$100000
-
-Monthly Mortgage Payment: \$449.045
-
-Monthly Mortgage Insurance: \$83.3333
-
-Total Interest Paid: \$61656.1
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**************************************
+Loan Amount: $100000
+Monthly Mortgage Payment: $449.045
+Monthly Mortgage Insurance: $83.3333
+Total Interest Paid: $61656.1
+**************************************
+</pre>
 
 **Note1:** Each inputted value is to be \> 0.0. If an inputted value is
 entered incorrectly, output the message "Incorrect Input -- Terminating
@@ -112,19 +104,16 @@ Program" Here is an example. You are to terminate the program
 immediately when an illegal input occurs. **Further, there is to be only
 one return statement at the end of your program.**
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
+<pre>
+*******************
 Mortgage Calculator
+*******************
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-Enter Purchase Price: \$**115000.00**
-
-Enter Down Payment: \$**15000.00**
-
-Enter Interest Rate: %**-1.0**
-
+Enter Purchase Price: $<b>115000.00</b>
+Enter Down Payment: $<b>15000.00</b>
+Enter Interest Rate: %<b>-1.0</b>
 Incorrect Input - Terminating Program
+</pre>
 
 **Note2:** Do not use any C++ constructs not introduced in the class
 thus far.**\
@@ -135,7 +124,7 @@ you will need to include the library cmath by using the preprocessor
 directive #include \<cmath>. The pow function accepts two doubles and
 returns a double. As an example,
 
-cout \<\< pow (2.0, 3.0); // outputs 8.0 because 2.0^3.0^ equals 8.0
+cout \<\< pow (2.0, 3.0); // outputs 8.0 because 2.0<sup>3.0</sup> equals 8.0
 
 **To complete this assignment you must submit the following:**
 
