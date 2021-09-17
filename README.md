@@ -1,11 +1,12 @@
-CS150 Assignment 2
+## CS150 Assignment 2
 
 A Mortgage Calculator
 
-**Date assigned:** Friday, September 17, 2020
+**Date assigned:** Friday, September 17, 2021
 
-**Program due:** Monday, September 27, 2020, \[9:15AM Sect 02; 1:00PM
-Sect 01\]\
+**Program due:** Monday, September 27, 2021, \[9:15AM Sect 02; 1:00PM
+Sect 01\]
+
 **Points:** 25
 
 **This is an individual assignment.**
